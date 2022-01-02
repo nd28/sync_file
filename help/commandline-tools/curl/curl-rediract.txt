@@ -1,0 +1,11 @@
+Can I download from Git Repository Release section using the tool "curl"?
+If Yes then, How?
+
+Somebody from stackoverflow.com said that,
+"If you want to use curl you have to use redirect option 
+ to follow the redirect link and direct the output in a
+ file like this:
+ `curl -L {url_to_package} > {package_name_with_ext}`
+--Let's try this out.
+`curl -L https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/Hasklig.zip > NF-Hasklig-v2.1.zip`
+Because I want to download hasklig fonts whitch is fork of source code pro with ligatures.

@@ -1,0 +1,5 @@
+Can I determine the ETA for downloading a file?
+I maybe can, 
+If I get downloading_speed, total_size of a file. then i can divide total_size
+by downloading_speed KiB per seconds to get total_seconds it will take to download.
+
